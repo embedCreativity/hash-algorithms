@@ -73,23 +73,23 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <TargetName>hash</TargetName>
-    <IntDir>$(SolutionDir)$(Configuration)</IntDir>
+    <IntDir>$(SolutionDir)$(Configuration)\hash-library\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IntDir>$(SolutionDir)$(Configuration)</IntDir>
+    <IntDir>$(SolutionDir)$(Configuration)\hash-library\</IntDir>
     <TargetName>hash</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
     <TargetName>hash</TargetName>
-    <IntDir>$(SolutionDir)$(Configuration)</IntDir>
+    <IntDir>$(SolutionDir)$(Configuration)\hash-library\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)$(Configuration)</IntDir>
+    <IntDir>$(SolutionDir)$(Configuration)\hash-library\</IntDir>
     <TargetName>hash</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
